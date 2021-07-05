@@ -1,6 +1,7 @@
 {
     "name": "cashfree/omnipay-cashfree",
     "type": "library",
+    "version": "3.6.2",
     "description": "Cashfree driver for the Omnipay payment processing library",
     "keywords": [
         "gateway",
