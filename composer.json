@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/cashfree",
+    "name": "cashfree/omnipay-cashfree",
     "type": "library",
     "description": "Cashfree driver for the Omnipay payment processing library",
     "keywords": [
