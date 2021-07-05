@@ -1,0 +1,37 @@
+{
+    "name": "omnipay/cashfree",
+    "type": "library",
+    "description": "Cashfree driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "cashfree"
+    ],
+    "homepage": "https://github.com/cashfree/omnipay-cashfree",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dev Cashfree",
+            "email": "developers@cashfree.com"
+        },
+        {
+            "name": "Omnipay Contributors",
+            "homepage": "https://github.com/cashfree/omnipay-cashfree"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Cashfree\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "^3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3",
+        "squizlabs/php_codesniffer": "^3",
+        "phpro/grumphp": "^0.14"
+    },
+    "prefer-stable": true
+}
